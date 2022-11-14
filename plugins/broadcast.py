@@ -1,4 +1,4 @@
-
+#https://github.com/AM-ROBOTS
 from pyrogram import Client, filters
 import datetime
 import time
@@ -13,7 +13,7 @@ async def verupikkals(bot, message):
     users = await db.get_all_users()
     b_msg = message.reply_to_message
     sts = await message.reply_text(
-        text='Broadcasting your messages...'
+        text='Broadcasting your messages...😁...'
     )
     start_time = time.time()
     total_users = await db.total_users_count()
