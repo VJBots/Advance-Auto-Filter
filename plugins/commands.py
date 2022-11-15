@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/sources_cods')
+                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/TVSeriesCW')
             ],
             [
-                InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url=f"https://youtube.com/channel/UCqts9WhhlioK3RB9XQQzoAg"),
+                InlineKeyboardButton('⚡ OUR ΞMᎮIRΞ ⚡', url=f"https://t.me/TVSeriesCW/2202"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -50,8 +50,8 @@ async def start(client, message):
             InlineKeyboardButton('⚡MOVIΞS GᏒOUᎮ⚡', url='https://t.me/HeavenOfMovies'),
             InlineKeyboardButton('⚡SΞᏒIΞS GᏒOUᎮ⚡', url='https://t.me/HeavenOfSeries')
             ],[
-            InlineKeyboardButton('MΛIN CHΛNNΞL', url='https://t.me/TVSeriesCW'),
-            InlineKeyboardButton('VIᎮ SΞΛᏒCH🔎', callback_data='about')
+            InlineKeyboardButton('MΛIN CHΛNNΞL', url='https://t.me/TVSeriesCW/2202'),
+            InlineKeyboardButton('VIᎮ SΞΛᏒCH🔎', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -93,11 +93,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/channel/UCqts9WhhlioK3RB9XQQzoAg'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/sources_cods')
+            InlineKeyboardButton('⚡MOVIΞS GᏒOUᎮ⚡', url='https://t.me/HeavenOfMovies'),
+            InlineKeyboardButton('⚡SΞᏒIΞS GᏒOUᎮ⚡', url='https://t.me/HeavenOfSeries')
             ],[
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('MΛIN CHΛNNΞL', url='https://t.me/TVSeriesCW/2202'),
+            InlineKeyboardButton('VIᎮ SΞΛᏒCH🔎', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
