@@ -1,6 +1,6 @@
 {
-    "name": "ᎯℕUℛᎯᎶ",
-    "description": "Clone Of ᎯℕUℛᎯᎶ & More Features Added",
+    "name": "Nataliya",
+    "description": "Nataliya Bot With Advance Features Added",
     "stack": "container",
     "logo": "https://telegra.ph/file/9ee1253e36b37a1665ce2.jpg",
     "keywords": [
@@ -16,8 +16,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/AM-ROBOTS/AM-ROBOTS",
-    "repository": "https://github.com/AM-ROBOTS/AM-ROBOTS",
+    "website": "https://t.me/TVSeriesCW",
+    "repository": "https://t.me/TVSeriesCW",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -65,7 +65,7 @@
         },
         "COLLECTION_NAME": {
             "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
-            "value": "Anurag_files",
+            "value": "Telegram_files",
             "required": false
         }
     },
