@@ -47,11 +47,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡MOVIΞS GᏒOUᎮ⚡', url='https://t.me/HeavenOfMovies'),
-            InlineKeyboardButton('⚡SΞᏒIΞS GᏒOUᎮ⚡', url='https://t.me/HeavenOfSeries')
+            InlineKeyboardButton('⚡MOVIΞS GᏒOUᎮ', url='https://t.me/HeavenOfMovies'),
+            InlineKeyboardButton('SΞᏒIΞS GᏒOUᎮ⚡', url='https://t.me/HeavenOfSeries')
             ],[
-            InlineKeyboardButton('MΛIN CHΛNNΞL', url='https://t.me/TVSeriesCW/2202'),
-            InlineKeyboardButton('VIᎮ SΞΛᏒCH🔎', switch_inline_query_current_chat='')
+            InlineKeyboardButton('MΛIN CHΛNNΞL✨', url='https://t.me/TVSeriesCW/2202'),
+            InlineKeyboardButton('VIᎮ SΞΛᏒCH 🔎', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -93,11 +93,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡MOVIΞS GᏒOUᎮ⚡', url='https://t.me/HeavenOfMovies'),
-            InlineKeyboardButton('⚡SΞᏒIΞS GᏒOUᎮ⚡', url='https://t.me/HeavenOfSeries')
+            InlineKeyboardButton('⚡MOVIΞS GᏒOUᎮ', url='https://t.me/HeavenOfMovies'),
+            InlineKeyboardButton('SΞᏒIΞS GᏒOUᎮ⚡', url='https://t.me/HeavenOfSeries')
             ],[
-            InlineKeyboardButton('MΛIN CHΛNNΞL', url='https://t.me/TVSeriesCW/2202'),
-            InlineKeyboardButton('VIᎮ SΞΛᏒCH🔎', switch_inline_query_current_chat='')
+            InlineKeyboardButton('MΛIN CHΛNNΞL✨', url='https://t.me/TVSeriesCW/2202'),
+            InlineKeyboardButton('VIᎮ SΞΛᏒCH 🔎', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
