@@ -109,7 +109,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="❓ How To Download ❓", url='https://t.me/MrperfectOffcial/130')
+            InlineKeyboardButton(text="❓ How To Download ❓", url='https://t.me/EasySky_Link/179')
         ]
     )
 
@@ -689,7 +689,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="❓ How To Download ❓", url='https://t.me/MrperfectOffcial/130')
+            InlineKeyboardButton(text="❓ How To Download ❓", url='https://t.me/EasySky_Link/179')
         ]
     )
 
@@ -740,7 +740,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>❗Your Search Results</b> ‛{search}’ 👇\n\n <i>Follow <b>[❗REQUEST TIPS❗](https://t.me/TVSeriesCW/1378)⛩️</b> For More Accurate Results⚡</i>"
+        cap = f"<b>❗Your Search Results</b> ‛{search}’ \n\n <i>Follow <b>[❗REQUEST TIPS❗](https://t.me/TVSeriesCW/1378)</b> For More Accurate Results⚡</i>"
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
