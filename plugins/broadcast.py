@@ -1,4 +1,3 @@
-#https://github.com/AM-ROBOTS
 from pyrogram import Client, filters
 import datetime
 import time
