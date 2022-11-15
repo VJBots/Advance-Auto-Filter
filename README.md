@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/AM-ROBOTS/AdvAnurag/blob/main/assets/logo.jpg" alt="Anurag Logo">
+  <img src="assets/logo.jpg" alt="Eva Maria Logo">
 </p>
 <h1 align="center">
   <b>ᎯℕUℛᎯᎶ</b>
