@@ -34,16 +34,16 @@ async def gen_link_s(bot, message):
     string = 'filep_' if message.text.lower().strip() == "/plink" else 'file_'
     string += file_id
     outstr = base64.urlsafe_b64encode(string.encode("ascii")).decode().strip("=")
-    await message.reply(f"<b>⪼ 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚈𝙾𝚄𝚁 𝙻𝙸𝙽𝙺:</b>\nhttps://t.me/{temp.U_NAME}?start={outstr}")
+    await message.reply(f"<b>⪼ 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚈𝙾𝚄𝚁 𝙻𝙸𝙽𝙺:</b>\nhttps://telegram.me/{temp.U_NAME}?start={outstr}")
     
     
 @Client.on_message(filters.command(['batch', 'pbatch']) & filters.create(allowed))
 async def gen_link_batch(bot, message):
     if " " not in message.text:
-        return await message.reply("𝚄𝚂𝙴 𝙲𝙾𝚁𝚁𝙴𝙲𝚃 𝙵𝙾𝚁𝙼𝙰𝚃.\n𝙴𝚇𝙰𝙼𝙿𝙻𝙴 ›› <code>/batch https://t.me/Movies_Zilaa/3 https://t.me/Movies_Zilaa/8</code>.")
+        return await message.reply("𝚄𝚂𝙴 𝙲𝙾𝚁𝚁𝙴𝙲𝚃 𝙵𝙾𝚁𝙼𝙰𝚃.\n𝙴𝚇𝙰𝙼𝙿𝙻𝙴 ›› <code>/batch https://t.me/TVSeriesCW/3 https://t.me/TVSeriesCW/8</code>.")
     links = message.text.strip().split(" ")
     if len(links) != 3:
-        return await message.reply("Use correct format.\nExample <code>/batch https://t.me/Movies_Zilaa/3 https://t.me/Movies_Zilaa/8</code>.")
+        return await message.reply("Use correct format.\nExample <code>/batch https://t.me/TVSeriesCW/3 https://t.me/TVSeriesCW/8</code>.")
     cmd, first, last = links
     regex = re.compile("(https://)?(t\.me/|telegram\.me/|telegram\.dog/)(c/)?(\d+|[a-zA-Z_0-9]+)/(\d+)$")
     match = regex.match(first)
@@ -77,7 +77,7 @@ async def gen_link_batch(bot, message):
     if chat_id in FILE_STORE_CHANNEL:
         string = f"{f_msg_id}_{l_msg_id}_{chat_id}_{cmd.lower().strip()}"
         b_64 = base64.urlsafe_b64encode(string.encode("ascii")).decode().strip("=")
-        return await sts.edit(f"<b>⪼ 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚈𝙾𝚄𝚁 𝙻𝙸𝙽𝙺 ›› https://t.me/{temp.U_NAME}?start=DSTORE-{b_64}</b>")
+        return await sts.edit(f"<b>⪼ 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚈𝙾𝚄𝚁 𝙻𝙸𝙽𝙺 ›› https://telegram.me/{temp.U_NAME}?start=DSTORE-{b_64}</b>")
 
     FRMT = "<b>╭━━━━━━━━━━━━━━━➣\n┣⪼𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙸𝙽𝙶 𝙻𝙸𝙽𝙺...\n┣⪼𝚃𝙾𝚃𝙰𝙻 𝙼𝙴𝚂𝚂𝙰𝙶𝙴𝚂: `{total}`\n┣⪼𝙳𝙾𝙽𝙴: `{current}`\n┣⪼𝚁𝙴𝙼𝙰𝙸𝙽𝙸𝙽𝙶: `{rem}`\n┣⪼𝚂𝚃𝙰𝚃𝚄𝚂: `{sts}`\n╰━━━━━━━━━━━━━━━➣</b>"
 
@@ -122,4 +122,4 @@ async def gen_link_batch(bot, message):
     post = await bot.send_document(LOG_CHANNEL, f"batchmode_{message.from_user.id}.json", file_name="Batch.json", caption="👩🏻‍💻 File Store Logs 👩🏻‍💻")
     os.remove(f"batchmode_{message.from_user.id}.json")
     file_id, ref = unpack_new_file_id(post.document.file_id)
-    await sts.edit(f"<b>⪼ 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚈𝙾𝚄𝚁 𝙻𝙸𝙽𝙺\n𝙲𝙾𝙽𝚃𝙰𝙸𝙽𝚂 `{og_msg}` 𝙵𝙸𝙻𝙴𝚂.\n https://t.me/{temp.U_NAME}?start=BATCH-{file_id}</b>")
+    await sts.edit(f"<b>⪼ 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚈𝙾𝚄𝚁 𝙻𝙸𝙽𝙺\n𝙲𝙾𝙽𝚃𝙰𝙸𝙽𝚂 `{og_msg}` 𝙵𝙸𝙻𝙴𝚂.\n https://telegram.me/{temp.U_NAME}?start=BATCH-{file_id}</b>")
