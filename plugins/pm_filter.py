@@ -740,7 +740,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>❗Your Search Results</b> ‛{search}’ 👇\n\n <i>Follow <b>[Search Format](https://t.me/TVSeriesCW/1378)⛩️</b> For More Accurate Results⚡</i>"
+        cap = f"<b>❗Your Search Results</b> ‛{search}’ 👇\n\n <i>Follow <b>[❗SEARCH FORMAT❗](https://t.me/TVSeriesCW/1378)⛩️</b> For More Accurate Results⚡</i>"
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
@@ -777,7 +777,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("<b>I Couldn't Find Anything</b> \n\n <i>Please Check Your Spelling And Follow <b>[Search Format⛩️](https://t.me/TVSeriesCW/1378)</b> For More Accurate Results⚡</i>")
+        k = await msg.reply("<b>I Couldn't Find Anything</b> \n\n <i>Please Check Your Spelling And Follow <b>[❗SEARCH FORMAT❗](https://t.me/TVSeriesCW/1378)</b> For More Accurate Results⚡</i>")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -806,7 +806,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("<b>I Couldn't Find Anything</b> \n\n <i>Please Check Your Spelling And Follow <b>[Search Format⛩️](https://t.me/TVSeriesCW/1378)</b> For More Accurate Results⚡</i>")
+        k = await msg.reply("<b>I Couldn't Find Anything</b> \n\n <i>Please Check Your Spelling And Follow <b>[❗SEARCH FORMAT❗](https://t.me/TVSeriesCW/1378)</b> For More Accurate Results⚡</i>")
         await asyncio.sleep(8)
         await k.delete()
         return
