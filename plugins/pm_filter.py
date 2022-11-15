@@ -1,4 +1,4 @@
-# Made By @AM_ROBOTS
+# Kanged From @TVSeriesCW
 import asyncio
 import re
 import ast
