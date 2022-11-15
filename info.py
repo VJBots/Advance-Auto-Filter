@@ -15,8 +15,6 @@ SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', ''))
 API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
-URL_SHORTNER_WEBSITE = environ.get('URL_SHORTNER_WEBSITE', '')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -70,7 +68,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tnlink.in')
+URL_SHORTNER_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tnlink.in')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '56061ff8490e8f854eace469242461072056dd85')
 
      # Auto Delete For Group Message (Self Delete) #
