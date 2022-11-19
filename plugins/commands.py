@@ -26,10 +26,10 @@ async def start(client, message):
                 InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/TVSeriesCW')
             ],
             [
-                InlineKeyboardButton('⚡ OUR ΞMᎮIRΞ ⚡', url=f"https://t.me/TVSeriesCW/2202"),
+                InlineKeyboardButton('⚡ OUR ΞMᎮIRΞ ⚡', url=f"https://t.me/TVSeriesCW/2103"),
             ],
             [
-                InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
+                InlineKeyboardButton('⚡ CONTACT OWNER ⚡', url=f"https://t.me/MrperfectOffcial_bot")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
