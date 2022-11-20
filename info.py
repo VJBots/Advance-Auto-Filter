@@ -42,20 +42,9 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'tvseriescw_group')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>✨ <a href="https://t.me/+3cfeesNk_cg3MGQ9">{file_name}</b></a>
-
-🌀 <i><b>Movies Group » <a href="https://t.me/heavenofmovies">@HeavenOfMovies</i></b></a>
-🌀 <b><i>Series Group » <a href="https://t.me/cw_tv_series">@TVSeriesCW</b></i></a>")
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "<b>✨ <a href="https://t.me/+3cfeesNk_cg3MGQ9">{file_name}</b></a>
-
-🌀 <i><b>Movies Group » <a href="https://t.me/heavenofmovies">@HeavenOfMovies</i></b></a>
-🌀 <b><i>Series Group » <a href="https://t.me/cw_tv_series">@TVSeriesCW</b></i></a>")
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<i><b>🎗️ {title} {year}
-━━━━━━━━━━━━━━━━━
-🎭 Genre › {genres}
-⭐ Rating › {rating}
-•────────────────•
-🔆彡[ @TVSeriesCW ]彡🔆</b> </i>")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b><i>{file_name} » {file_size} › [TVSeriesCW](https://t.me/tvseriescw)</i></b>")
+BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "<b><i>{file_name} » {file_size} › [TVSeriesCW](https://t.me/TVSeriesCW)</i></b>")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> \n🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10 \n🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} \n\n🎊 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 [ᴀᴍ_ᴛᴇᴄʜ](https://t.me/Tvseriescw)")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
