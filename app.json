@@ -1,8 +1,7 @@
 {
-    "name": "Nataliya",
-    "description": "Nataliya Bot With Advance Features Added",
+    "name": "EvaMariaBot",
+    "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
-    "logo": "https://telegra.ph/file/22d98b33bd0d52d072e4e.jpg",
     "keywords": [
       "telegram",
       "auto-filter",
@@ -16,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://t.me/TVSeriesCW",
-    "repository": "https://t.me/TVSeriesCW",
+    "website": "https://github.com/EvamariaTG/EvaMaria",
+    "repository": "https://github.com/EvamariaTG/EvaMaria",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -56,11 +55,11 @@
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/h9QjSSmk5tw",
+            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
             "required": true
         },
         "DATABASE_NAME": {
-            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/h9QjSSmk5tw",
+            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
             "required": false
         },
         "COLLECTION_NAME": {
