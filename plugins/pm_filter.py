@@ -165,7 +165,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [</i></b><a href="https://t.me/TVSeriesCW/1378"><b><i>Click Here</i></b></a><b><i>]</i></b>')
+            k = await query.message.edit('<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -777,7 +777,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [</i></b><a href="https://t.me/TVSeriesCW/1378"><b><i>Click Here</i></b></a><b><i>]</i></b>")
+        k = await msg.reply("<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -806,7 +806,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [</i></b><a href="https://t.me/TVSeriesCW/1378"><b><i>Click Here</i></b></a><b><i>]</i></b>")
+        k = await msg.reply("<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>")
         await asyncio.sleep(8)
         await k.delete()
         return
