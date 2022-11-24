@@ -22,6 +22,7 @@ async def addfilter(client, message):
     args = message.text.html.split(None, 1)
 
     if chat_type == enums.ChatType.PRIVATE:
+        userid = message.from_user.id
         grpid = await active_connection(str(userid))
         if grpid is not None:
             grp_id = grpid
