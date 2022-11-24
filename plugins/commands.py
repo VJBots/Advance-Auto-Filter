@@ -100,7 +100,7 @@ async def start(client, message):
                     InlineKeyboardButton('⚡MOVIΞS GᏒOUᎮ', url='https://t.me/HeavenOfMovies'),
                     InlineKeyboardButton('SΞᏒIΞS GᏒOUᎮ⚡', url='https://t.me/HeavenOfseries')
                 ],[
-                    InlineKeyboardButton(''〄 DC', url='https://t.me/Arrowverse24hour'),
+                    InlineKeyboardButton('〄 DC', url='https://t.me/Arrowverse24hour'),
                     InlineKeyboardButton('⍟ MCU', url='https://t.me/MCU_4K'),
                     InlineKeyboardButton('VIᎮ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
                 ],[
