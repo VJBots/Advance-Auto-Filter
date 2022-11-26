@@ -170,7 +170,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>')
+            k = await query.message.edit('<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://graph.org/TVSeriesCW-REQUEST-TIPS-11-25-2)</i></b>')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -745,7 +745,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>❗Your Search Results</b> ‛{search}’ \n\n <i>Follow <b>[❗REQUEST TIPS❗](https://t.me/TVSeriesCW/1378)</b> For More Accurate Results⚡</i>"
+        cap = f"<b><i>❗Your Search Results</b> ‛{search}’👇🏻 </i>"
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
@@ -782,7 +782,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>")
+        k = await msg.reply("<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://graph.org/TVSeriesCW-REQUEST-TIPS-11-25-2)</i></b>")
         await asyncio.sleep(8)
         await k.delete()
         return
@@ -811,7 +811,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply("<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>")
+        k = await msg.reply("<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://graph.org/TVSeriesCW-REQUEST-TIPS-11-25-2)</i></b>")
         await asyncio.sleep(8)
         await k.delete()
         return
