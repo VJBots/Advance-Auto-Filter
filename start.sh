@@ -8,5 +8,5 @@ else
 fi
 cd /ClicksFly
 pip3 install -U -r requirements.txt
-echo "Starting DQ-The-File-Donor...."
+echo "Starting Nataliya...."
 python3 bot.py
