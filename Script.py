@@ -153,7 +153,7 @@ Owner Will Update The Movie Within 24Hour"""
 ⊱⋅ ─────────────── ⋅⊰
 › Flash S01 ✅
 › Flash Hindi ✅
-› Flash S0E02 Hindi ✅
+› Flash S01E02 Hindi ✅
 
 › Don't Type Movie, Upload, Please, Symbol ❌
 """
