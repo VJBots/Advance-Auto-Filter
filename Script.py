@@ -132,11 +132,6 @@ Nᴀᴍᴇ - {}"""
 • ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/MrperfectOffcial_bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
-If You Don't Get The Movie/Series You Asked Means :
-• You Spelt It Wrong
-• It's Not Released
-• It's Not Released Digitally
-
 If You Think It's Released Digitally And You Spelled Correct And Can't Get The Movie Then Type Like This...
  #Request Avatar 2009 720p
 Owner Will Update The Movie Within 24Hour"""
@@ -145,28 +140,20 @@ Owner Will Update The Movie Within 24Hour"""
 ⚠ How To Request Movies ⁉️ »
 ⊱⋅ ─────────────── ⋅⊰
 › Avatar ✅
-› Avatar 2009 ✅
 › Avatar 2009 720p ✅
 › Avatar 2009 720p Hindi ✅
 
-› Avatar movie ❌
-› Upload Avatar ❌
-› Avatar Please ❌
-› Don't Use Any Symbol ❌
+› Don't Type Movie, Upload, Please, Symbol ❌
 """
 
     SINFO = """
 ⚠ How To Request Series ⁉️ »
 ⊱⋅ ─────────────── ⋅⊰
-› Stranger Things S01 ✅
-› Spider Man ✅
-› Stranger Things Hindi ✅
-› Stranger Things S02 Hindi ✅
+› Flash S01 ✅
+› Flash Hindi ✅
+› Flash S0E02 Hindi ✅
 
-› #Request Stranger Things ❌
-› Stranger Things Series ❌
-› Spider-Man ❌
-› Don't Use Any Symbol ❌
+› Don't Type Movie, Upload, Please, Symbol ❌
 """
 
     NORSLTS = """
