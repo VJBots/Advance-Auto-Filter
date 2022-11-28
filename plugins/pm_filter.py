@@ -172,7 +172,7 @@ async def next_page(bot, query):
             ],
         )
     btn.insert(0, [
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("‼️ How To Download ⁉️", url=f"https://t.me/MrperfectOffcial/130")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -1223,7 +1223,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("‼️ How To Download ⁉️", url=f"https://t.me/MrperfectOffcial/130")
     ])
 
     if offset != "":
@@ -1272,7 +1272,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs Wʜᴀᴛ I Fᴏᴜɴᴅ Iɴ Mʏ Dᴀᴛᴀʙᴀsᴇ Fᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ{search}.</b>"
+        cap = f"<b><i> Hey {message.from_user.mention},❗Your Search Results</b> ‛{search}’👇🏻 </i>"
     if imdb and imdb.get('poster'):
         try:
             if message.chat.id == SUPPORT_CHAT_ID:
