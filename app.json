@@ -1,5 +1,5 @@
 {
-    "name": "DQ-The-File-Donor",
+    "name": "Nataliya",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Joelkb/DQ-the-file-donor",
-    "repository": "https://github.com/Joelkb/DQ-the-file-donor",
+    "website": "https://github.com/Joelkb/DQ-the-file-donorhttps://t.me/MrperfectOffcial_bot",
+    "repository": "https://t.me/MrperfectOffcial_bot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
