@@ -6,7 +6,7 @@ else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Nataliya
 fi
-cd /ClicksFly
+cd /Nataliya
 pip3 install -U -r requirements.txt
 echo "Starting Nataliya...."
 python3 bot.py
