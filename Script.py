@@ -132,7 +132,7 @@ Nᴀᴍᴇ - {}"""
 • ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/MrperfectOffcial_bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
-If You Think It's Released Digitally And You Spelled Correct And Can't Get The Movie Then Type Like This...
+Check Your Spelling, Release Date, If You Still Don't Get The Movie Then Type Like This...
 ⊱⋅ ──────────────────── ⋅⊰
  #Request Avatar 2009 720p
 
