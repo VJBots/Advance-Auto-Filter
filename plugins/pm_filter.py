@@ -116,17 +116,17 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'Info ‼️', 'reqinfo'),
-                    InlineKeyboardButton(f'Movie ‼️', 'minfo'),
-                    InlineKeyboardButton(f'Series ‼️', 'sinfo')
+                    InlineKeyboardButton(f'Info 🚩', 'reqinfo'),
+                    InlineKeyboardButton(f'Movie 🔆', 'minfo'),
+                    InlineKeyboardButton(f'Series 🔆', 'sinfo')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'Movie ‼️', 'minfo'),
-                    InlineKeyboardButton(f'Series ‼️', 'sinfo')
+                    InlineKeyboardButton(f'Movie 🔆', 'minfo'),
+                    InlineKeyboardButton(f'Series 🔆', 'sinfo')
                 ]
             )
                 
@@ -137,17 +137,17 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'Info ‼️', 'reqinfo'),
-                    InlineKeyboardButton(f'Movie ‼️', 'minfo'),
-                    InlineKeyboardButton(f'Series ‼️', 'sinfo')
+                    InlineKeyboardButton(f'Info 🚩', 'reqinfo'),
+                    InlineKeyboardButton(f'Movie 🔆', 'minfo'),
+                    InlineKeyboardButton(f'Series 🔆', 'sinfo')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'Movie ‼️', 'minfo'),
-                    InlineKeyboardButton(f'Series ‼️', 'sinfo')
+                    InlineKeyboardButton(f'Movie 🔆', 'minfo'),
+                    InlineKeyboardButton(f'Series 🔆', 'sinfo')
                 ]
             )
 
@@ -742,7 +742,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ident, from_user = query.data.split("#")
         if int(query.from_user.id) == int(from_user):
             user = await client.get_users(from_user)
-            await query.answer(f"Hᴇʏ {user.first_name}, Yᴏᴜʀ Rᴇᴏ̨ᴜᴇsᴛ ɪs Aʟʀᴇᴀᴅʏ Aᴠᴀɪʟᴀʙʟᴇ !", show_alert=True)
+            await query.answer(f"Hᴇʏ {user.first_name}, Your Request Is Already Available, Please Check Your Spelling And Follow [Request Tips❗](https://graph.org/TVSeriesCW-REQUEST-TIPS-11-25-2)", show_alert=True)
         else:
             await query.answer("Yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜғғɪᴄɪᴀɴᴛ ʀɪɢᴛs ᴛᴏ ᴅᴏ ᴛʜɪs !", show_alert=True)
 
@@ -750,7 +750,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ident, from_user = query.data.split("#")
         if int(query.from_user.id) == int(from_user):
             user = await client.get_users(from_user)
-            await query.answer(f"Hᴇʏ {user.first_name}, Yᴏᴜʀ Rᴇᴏ̨ᴜᴇsᴛ ɪs Uᴘʟᴏᴀᴅᴇᴅ !", show_alert=True)
+            await query.answer(f"Hᴇʏ {user.first_name}, Your Request Is Uploaded⚡, Type Again In Request Group", show_alert=True)
         else:
             await query.answer("Yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜғғɪᴄɪᴀɴᴛ ʀɪɢᴛs ᴛᴏ ᴅᴏ ᴛʜɪs !", show_alert=True)
         
@@ -758,7 +758,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ident, from_user = query.data.split("#")
         if int(query.from_user.id) == int(from_user):
             user = await client.get_users(from_user)
-            await query.answer(f"Hᴇʏ {user.first_name}, Yᴏᴜʀ Rᴇᴏ̨ᴜᴇsᴛ ɪs Uɴᴀᴠᴀɪʟᴀʙʟᴇ !", show_alert=True)
+            await query.answer(f"Hey {user.first_name}, Your Movie/Series Not Released Digitally/OTT ❗", show_alert=True)
         else:
             await query.answer("Yᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ sᴜғғɪᴄɪᴀɴᴛ ʀɪɢᴛs ᴛᴏ ᴅᴏ ᴛʜɪs !", show_alert=True)
 
@@ -1187,17 +1187,17 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'Info ‼️', 'reqinfo'),
-                    InlineKeyboardButton(f'Movie ‼️', 'minfo'),
-                    InlineKeyboardButton(f'Series ‼️', 'sinfo')
+                    InlineKeyboardButton(f'Info 🚩', 'reqinfo'),
+                    InlineKeyboardButton(f'Movie 🔆', 'minfo'),
+                    InlineKeyboardButton(f'Series 🔆', 'sinfo')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'Movie ‼️', 'minfo'),
-                    InlineKeyboardButton(f'Series ‼️', 'sinfo')
+                    InlineKeyboardButton(f'Movie 🔆', 'minfo'),
+                    InlineKeyboardButton(f'Series 🔆', 'sinfo')
                 ]
             )
                 
@@ -1208,17 +1208,17 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'Info ‼️', 'reqinfo'),
-                    InlineKeyboardButton(f'Movie ‼️', 'minfo'),
-                    InlineKeyboardButton(f'Series ‼️', 'sinfo')
+                    InlineKeyboardButton(f'Info 🚩', 'reqinfo'),
+                    InlineKeyboardButton(f'Movie 🔆', 'minfo'),
+                    InlineKeyboardButton(f'Series 🔆', 'sinfo')
                 ]
             )
 
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f'Movie ‼️', 'minfo'),
-                    InlineKeyboardButton(f'Series ‼️', 'sinfo')
+                    InlineKeyboardButton(f'Movie 🔆', 'minfo'),
+                    InlineKeyboardButton(f'Series 🔆', 'sinfo')
                 ]
             )
 
