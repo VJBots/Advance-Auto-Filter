@@ -133,7 +133,9 @@ Nᴀᴍᴇ - {}"""
 
     REQINFO = """
 If You Think It's Released Digitally And You Spelled Correct And Can't Get The Movie Then Type Like This...
+⊱⋅ ──────────────────── ⋅⊰
  #Request Avatar 2009 720p
+⊱⋅ ──────────────────── ⋅⊰
 Owner Will Update The Movie Within 24Hour"""
 
     MINFO = """
