@@ -1,12 +1,12 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Joelkb/DQ-the-file-donor.git /DQ-The-File-Donor
+  git clone https://github.com/KarunaTG/ClicksFly /Clicksfly
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /DQ-The-File-Donor
+  git clone $UPSTREAM_REPO /ClicksFly
 fi
-cd /DQ-The-File-Donor
+cd /ClicksFly
 pip3 install -U -r requirements.txt
 echo "Starting DQ-The-File-Donor...."
 python3 bot.py
