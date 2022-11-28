@@ -35,8 +35,8 @@ auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID')
-reqst_channel = environ.get('REQST_CHANNEL_ID')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001351134557')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001697727292')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
@@ -46,8 +46,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-SHORTENR_URL = environ.get('SHORTENR_URL', 'tnlink.in')
-SHORTNER_API = environ.get('SHORTNER_API', '')
+SHORTENR_URL = environ.get('URL_SHORTNER_WEBSITE', 'tnlink.in')
+SHORTNER_API = environ.get('URL_SHORTNER_WEBSITE_API', '')
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+CuTT-clY8GQ5ZWE9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TVSeriesCW')
 MSG_ALRT = environ.get('MSG_ALRT', '🚩 @TVSeriesCW Best Channel In Telegram')
