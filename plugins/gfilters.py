@@ -4,6 +4,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from database.gfilters_mdb import(
    add_gfilter,
    get_gfilters,
+   delete_gfilter,
    count_gfilters
 )
 
