@@ -1,6 +1,6 @@
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
-from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, SHORTENR_URL, SHORTNER_API
+from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, URL_SHORTNER_WEBSITE, URL_SHORTNER_WEBSITE_API
 from imdb import IMDb
 import asyncio
 from pyrogram.types import Message, InlineKeyboardButton
@@ -384,7 +384,7 @@ async def get_shortlink(link):
         https = "https"
         link = link.replace("http", https)
     url = f'https://tnlink.in/api'
-    params = {'api': SHORTNER_API,
+    params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,
               }
 
@@ -396,8 +396,8 @@ async def get_shortlink(link):
                     return data['shortenedUrl']
                 else:
                     logger.error(f"Error: {data['message']}")
-                    return f'https://{SHORTENR_URL}/api?api={SHORTNER_API}&link={link}'
+                    return f'https://{URL_SHORTNER_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&link={link}'
 
     except Exception as e:
         logger.error(e)
-        return f'{SHORTENR_URL}/api?api={SHORTNER_API}&link={link}'
+        return f'{URL_SHORTNER_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&link={link}'
