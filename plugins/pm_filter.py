@@ -22,6 +22,7 @@ from database.filters_mdb import (
     del_all,
     find_filter,
     get_filters,
+    del_allg
 )
 from database.gfilters_mdb import (
     find_gfilter,
