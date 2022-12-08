@@ -72,7 +72,6 @@ async def save_group(bot, message):
                 
         if settings["auto_delete"]:
             await asyncio.sleep(1000)
-            await (temp.MELCOW['welcome']).delete()
                 
                
 
