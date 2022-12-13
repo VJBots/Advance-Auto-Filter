@@ -88,7 +88,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="** __ Please Join Our 🎗UPDATE CHANNEL🎗 \n Then Tap On Try Again ⚡ \n You'll Get Your File🔆 __ **",
+            text="**Please Join Our 🎗UPDATE CHANNEL🎗 \n Then Tap On Try Again ⚡ \n You'll Get Your File🔆**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
