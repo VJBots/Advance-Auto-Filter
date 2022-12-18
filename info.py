@@ -46,6 +46,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 URL_SHORTNER_WEBSITE = environ.get('URL_SHORTNER_WEBSITE', 'tnlink.in')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '56061ff8490e8f854eace469242461072056dd85')
 PORT = environ.get("PORT", "8080")
