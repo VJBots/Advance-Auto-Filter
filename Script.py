@@ -114,11 +114,11 @@ Nᴀᴍᴇ - {}"""
 
     CUDNT_FND = """<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>"""
 
-    I_CUDNT = """<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>"""
+    I_CUDNT = """<b><i>⚠ No Results, Please Follow Request Tips. !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>"""
 
-    I_CUD_NT = """<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>"""
+    I_CUD_NT = """<b><i>⚠ No Results, Please Follow Request Tips.. !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>"""
 
-    MVE_NT_FND = """<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>"""
+    MVE_NT_FND = """<b><i>⚠ No Results, Please Follow Request Tips... !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>"""
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ 1 Million Dᴀᴛᴀʙᴀsᴇ..."""
 
