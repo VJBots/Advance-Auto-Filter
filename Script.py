@@ -159,13 +159,13 @@ Owner Will Update The Movie Within 24Hour"""
 """
 
     NORSLTS = """
-★ #𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀 ★
+★ #Auto_Request ★
 
-𝗜𝗗 <b>: {}</b>
+<b>Request</b> 🔆: `{}`
 
-𝗡𝗮𝗺𝗲 <b>: {}</b>
+<i><b>Requested By : {}</b></i>
 
-𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
+<b>User ID ✨: {}</b>"""
 
     CAPTION = """
 🎗<b>[{file_name}](https://t.me/+3cfeesNk_cg3MGQ9)</b>🎗 \n\n🔆 <i><b>Movies Group » [@HeavenOfMovies](https://t.me/+_HgfqNy7N4owNTI1)</i></b> \n🔆 <b><i>Series Group » [@HeavenOfSeries](https://t.me/+UbT__2jSGfgzMGM1)</b></i>"""
