@@ -1498,7 +1498,7 @@ async def advantage_spell_chok(client, msg):
         logger.exception(e)
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-                   InlineKeyboardButton("Search In Google", url=f"https://www.google.com/search?q={reqst_gle}")
+                   InlineKeyboardButton("Search Spelling In Google", url=f"https://www.google.com/search?q={reqst_gle}")
         ]]
         await client.send_message(chat_id=REQUEST_LOGS, text=(script.NORSLTS.format(mv_rqst, reqstr.mention, reqstr.id)))
         k = await msg.reply_photo(
@@ -1513,7 +1513,7 @@ async def advantage_spell_chok(client, msg):
     if not movies:
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-                   InlineKeyboardButton("Search In Google", url=f"https://www.google.com/search?q={reqst_gle}")
+                   InlineKeyboardButton("Search Spelling In Google", url=f"https://www.google.com/search?q={reqst_gle}")
         ]]
         await client.send_message(chat_id=REQUEST_LOGS, text=(script.NORSLTS.format(mv_rqst, reqstr.mention, reqstr.id)))
         k = await msg.reply_photo(
