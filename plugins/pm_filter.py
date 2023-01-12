@@ -1260,7 +1260,8 @@ async def auto_filter(client, msg, spoll=False):
                 if settings["spell_check"]:
                     return await advantage_spell_chok(client, msg)
                 else:
-                    await client.send_message(chat_id=REQUEST_LOGS, text=(script.NORSLTS.format(search, reqstr.mention, reqstr.id)))
+                    if NO_RESULTS_MSG:
+                        await client.send_message(chat_id=REQUEST_LOGS, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, search)))
                     return
         else:
             return
@@ -1515,7 +1516,8 @@ async def advantage_spell_chok(client, msg):
         button = [[
                    InlineKeyboardButton("Search Spelling In Google", url=f"https://www.google.com/search?q={reqst_gle}")
         ]]
-        await client.send_message(chat_id=REQUEST_LOGS, text=(script.NORSLTS.format(mv_rqst, reqstr.mention, reqstr.id)))
+        if NO_RESULTS_MSG:
+            await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
         k = await msg.reply_photo(
             photo=SPELL_IMG, 
             caption=script.I_CUDNT.format(mv_rqst),
