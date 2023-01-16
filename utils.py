@@ -1,7 +1,7 @@
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
-from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, URL_SHORTNER_WEBSITE, URL_SHORTNER_WEBSITE_API
-from imdb import Cinemagoer
+from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, SHORTLINK_URL, SHORTLINK_API
+from imdb import Cinemagoer 
 import asyncio
 from pyrogram.types import Message, InlineKeyboardButton
 from pyrogram import enums
@@ -168,7 +168,6 @@ async def search_gagala(text):
     soup = BeautifulSoup(response.text, 'html.parser')
     titles = soup.find_all( 'h3' )
     return [title.getText() for title in titles]
-
 
 async def get_settings(group_id):
     settings = temp.SETTINGS.get(group_id)
@@ -434,26 +433,54 @@ def humanbytes(size):
         n += 1
     return str(round(size, 2)) + " " + Dic_powerN[n] + 'B'
 
-async def get_shortlink(link):
-    https = link.split(":")[0]
-    if "http" == https:
+async def get_shortlink(chat_id, link):
+    settings = await get_settings(chat_id) #fetching settings for group
+    if 'shortlink' in settings.keys():
+        URL = settings['shortlink']
+    else:
+        URL = SHORTLINK_URL
+    if 'shortlink_api' in settings.keys():
+        API = settings['shortlink_api']
+    else:
+        API = SHORTLINK_API
+    https = link.split(":")[0] #splitting https or http from link
+    if "http" == https: #if https == "http":
         https = "https"
-        link = link.replace("http", https)
-    url = f'https://tnlink.in/api'
-    params = {'api': URL_SHORTNER_WEBSITE_API,
-              'url': link,
-              }
-
-    try:
-        async with aiohttp.ClientSession() as session:
-            async with session.get(url, params=params, raise_for_status=True, ssl=False) as response:
-                data = await response.json()
-                if data["status"] == "success":
-                    return data['shortenedUrl']
-                else:
-                    logger.error(f"Error: {data['message']}")
-                    return f'https://{URL_SHORTNER_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&link={link}'
-
-    except Exception as e:
-        logger.error(e)
-        return f'{URL_SHORTNER_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&link={link}'
+        link = link.replace("http", https) #replacing http to https
+    if URL == "api.shareus.in":
+        url = f'https://{URL}/shortLink'
+        params = {
+            "token": API,
+            "format": "json",
+            "link": link,
+        }
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.get(url, params=params, raise_for_status=True, ssl=False) as response:
+                    data = await response.json(content_type="text/html")
+                    if data["status"] == "success":
+                        return data["shortlink"]
+                    else:
+                        logger.error(f"Error: {data['message']}")
+                        return f'https://{URL}/shortLink?token={API}&format=json&link={link}'
+        except Exception as e:
+            logger.error(e)
+            return f'https://{URL}/shortLink?token={API}&format=json&link={link}'
+    else:
+        url = f'https://{URL}/api'
+        params = {
+            "api": API,
+            "url": link,
+        }
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.get(url, params=params, raise_for_status=True, ssl=False) as response:
+                    data = await response.json()
+                    if data["status"] == "success":
+                        return data["shortenedUrl"]
+                    else:
+                        logger.error(f"Error: {data['message']}")
+                        return f'https://{URL}/api?api={API}&link={link}'
+        except Exception as e:
+            logger.error(e)
+            return f'https://{URL}/api?api={API}&link={link}'
