@@ -2,7 +2,30 @@ class script(object):
     START_TXT = "<b>🧤Helo {}, I'm <a href=https://telegram.me/{}>{}</a> &amp; I Can Provide You Any Movies &amp; Series</b> 😇"
 
     HELP_TXT = """<b>Hᴇʏ {}
-Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
+⚡Plans You Can Use In Your Group ⚡
+
+🎗 Gold Plan《 200 Rs 》
+
+▫️1 Year Validity 
+▪️All Shortner Support
+▫️Custom Api
+▪️10 Groups
+
+🎗 Silver Plan《 20 Rs 》
+
+▫️1 Month Validity 
+▪️All Shortner Support
+▫️Custom Api
+▪️5 Groups
+
+🎗 Bronze Plan《 Free 》
+
+▫️Lifetime Free
+▪️All Shortner Support
+▫️Links Of Shortner From My Refer
+▪️Unlimited Groups
+
+🔗 For More Information Contact @Pirate_Gamers 🔗</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
 ✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/MrperfectOffcial_bot'>Ɱɾ. φҽɾƒҽçէ</a>
@@ -166,10 +189,10 @@ Owner Will Update The Movie Within 24Hour"""
 ♦️ <b>User ID</b> : `{}` """
 
     CAPTION = """
-🎗<b>[{file_name}](https://t.me/+3cfeesNk_cg3MGQ9)</b>🎗 \n\n🔆 <i><b>Movies Group » [@HeavenOfMovies](https://t.me/+_HgfqNy7N4owNTI1)</i></b> \n🔆 <b><i>Series Group » [@HeavenOfSeries](https://t.me/+UbT__2jSGfgzMGM1)</b></i>"""
+<b>ɴᴀᴍᴇ: <code>{file_name}</code> \n\nJᴏɪɴ Nᴏᴡ: [⚡Technical Bots⚡](https://t.me/Technical _Bots)</b>"""
 
-    IMDB_TEMPLATE_TXT = """<i><b>🎗️ {title} {year} \n━━━━━━━━━━━━━━━━━ \n🎭 Genre › {genres} \n⭐ Rating › {rating} \n♦️ Story › {plot}\n•────────────────• \n🔆彡[ @TVSeriesCW ]彡🔆</b> </i>"""
-    
+    IMDB_TEMPLATE_TXT = """<b><i>📟 ᴛɪᴛᴛʟᴇ :</b></i> {title} \n<b><i>🌟 ʀᴀᴛɪɴɢ :</b></i> {rating} \n<b><i>🎭 ɢᴇɴʀᴇ :</b></i> {genres} \n<b><i>📆 ʀᴇʟᴇᴀsᴇ :</b></i> {year} </b></i>\n<b><i>⏰ ᴅᴜʀᴀᴛɪᴏɴ :</b></i> {runtime}\n\n<b><i>🔖 𝓟𝓵𝓸𝓽  :</b></i> `{plot}` \n\n<b><i>⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ⚡ :</b></i> {message.chat.title}"""
+
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
     
@@ -196,4 +219,4 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰Tɪᴍᴇ : <code>{}</code>
-🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code></b>"""
+🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Delhi</code></b>"""
