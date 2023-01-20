@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = "<b>🧤Helo {}, I'm <a href=https://telegram.me/{}>{}</a> &amp; I Can Provide You Any Movies &amp; Series</b> 😇"
+    START_TXT = "<b>🧤Helo {}, I'm <a href=https://telegram.me/{}>{}</a> I Can Provide You Any Movies And Series</b> 😇. \n⚡ You Can Also Use Your Shortner And Bot Will Provide Your Links In Your Group⚡"
 
     HELP_TXT = """<b>Hᴇʏ {}
 ⚡Plans You Can Use In Your Group ⚡
@@ -36,10 +36,9 @@ class script(object):
 ✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.0.3 [ Sᴛᴀʙʟᴇ ]</b>"""
 
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
-- This Bot Is An Private Project
-- ꜱᴏᴜʀᴄᴇ - <a href="https://t.me/MrperfectOffcial_bot">ʜᴇʀᴇ</a>
-Dᴇᴠᴇʟᴏᴘᴇʀ:
-- <a href="https://t.me/MrperfectOffcial_bot">Ɱɾ. φҽɾƒҽçէ</a></b>"""
+✅ - This Bot Is An Private Project
+✅ - ꜱᴏᴜʀᴄᴇ - <a href="https://t.me/Technical_Bots">⚡ ʜᴇʀᴇ ⚡</a>
+Dᴇᴠᴇʟᴏᴘᴇʀ:</b>"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -60,7 +59,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/MrperfectOffcial)</code>
+<code>[Button Text](buttonurl:https://t.me/Pirate_Gamers)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -135,13 +134,13 @@ Nᴀᴍᴇ - {}"""
 
     OLD_ALRT_TXT = """🔆 Hey {}, ❗Link Expired, Please Request Again ♻"""
 
-    CUDNT_FND = """<b><i>⚠ No Results, Please Follow Request Tips!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>"""
+    CUDNT_FND = """<b><i>⚠ No Results, Please Follow Request Tips!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/Popcorn_Bot_Channel/4)</i></b>"""
 
-    I_CUDNT = """<b><i>⚠ No Results, Please Follow Request Tips !</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>"""
+    I_CUDNT = """<b><i>⚠ No Results, Please Follow Request Tips !</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/Popcorn_Bot_Channel/4)</i></b>"""
 
-    I_CUD_NT = """<b><i>⚠ No Results, Please Follow Request Tips!!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>"""
+    I_CUD_NT = """<b><i>⚠ No Results, Please Follow Request Tips!!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/Popcorn_Bot_Channel/4)</i></b>"""
 
-    MVE_NT_FND = """<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/TVSeriesCW/1378)</i></b>"""
+    MVE_NT_FND = """<b><i>⚠ No Results, Please Follow Request Tips !!</i></b> \n <b><i>♀ Request Tips › [Click Here](https://t.me/Popcorn_Bot_Channel/4)</i></b>"""
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ 1 Million Dᴀᴛᴀʙᴀsᴇ..."""
 
@@ -150,9 +149,8 @@ Nᴀᴍᴇ - {}"""
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : Ɱɾ. φҽɾƒҽçէ
-• ᴜꜱᴇʀɴᴀᴍᴇ : @MrperfectOffcial_bot
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/MrperfectOffcial_bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : Pirate Gamers
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/Pirate_Gamers'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
 Check Your Spelling, Release Date, If You Still Don't Get The Movie Then Type Like This...
@@ -168,7 +166,7 @@ Owner Will Update The Movie Within 24Hour"""
 › Avatar 2009 720p ✅
 › Avatar 2009 720p Hindi ✅
 
-› Don't Type Movie, Upload, Please, Symbol ❌
+› Don't Type Movie Nickname, Don't Use Other Fonts, No Emoji, No Symbols ❌
 """
 
     SINFO = """
@@ -178,7 +176,7 @@ Owner Will Update The Movie Within 24Hour"""
 › Flash Hindi ✅
 › Flash S01E02 Hindi ✅
 
-› Don't Type Movie, Upload, Please, Symbol ❌
+› Don't Type Movie Nickname, Don't Use Other Fonts, No Emoji, No Symbols ❌
 """
 
     NORSLTS = """
