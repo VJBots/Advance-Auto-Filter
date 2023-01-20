@@ -1,12 +1,12 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/IamEasyIce/Nataliya /Nataliya
+  git clone https://github.com/BichuPg/Test-2.0 /Test-2.0
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Nataliya
+  git clone $UPSTREAM_REPO /Test-2.0
 fi
-cd /Priyanka
+cd /Test-2.0
 pip3 install -U -r requirements.txt
 echo "Starting Nataliya...."
 python3 bot.py
