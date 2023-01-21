@@ -269,7 +269,7 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton("⚡ How To Download ⚡", url=f"https://t.me/How_To_Open_Links_23")
+        InlineKeyboardButton("⚡ How To Download ⚡", url=f"https://t.me/How_To_Open_Linkl")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -564,10 +564,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         protect_content=True if ident == "filep" else False,
                         reply_markup=IInlineKeyboardMarkup(
                         [
-                         [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/+nMw67oz4F6kxOWZl'),
-                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/Popcorn_Bot_Channel')
+                         [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/Neha_Movie_Request'),
+                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/Vj_bots')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/Pirate_Gamers")
+                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/Anjel_neha")
                          ]
                         ]
                     )
@@ -611,10 +611,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             protect_content=True if ident == 'checksubp' else False,
             reply_markup=InlineKeyboardMarkup(
                         [
-                         [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/+nMw67oz4F6kxOWZl'),
-                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/Popcorn_Bot_Channel')
+                         [InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/Neha_movie_request'),
+                          InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/Vj_bots')
                        ],[
-                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/Pirate_Gamers")
+                          InlineKeyboardButton("📣 Bᴏᴛ Oᴡɴᴇʀ 📣", url="t.me/Anjel_neha")
                          ]
                         ]
                     )
@@ -916,15 +916,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                '🏆 Group 🏆', url='https://t.me/+nMw67oz4F6kxOWZl'),
+                '🏆 Group 🏆', url='https://t.me/Neha_movie_request'),
             InlineKeyboardButton(
-                '📣 Updates 📣', url='https://t.me/Popcorn_Bot_Channel')
+                '📣 Updates 📣', url='https://t.me/VJ_bots')
         ], [
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
         ], [
             InlineKeyboardButton('🔗 Shortner Website Link 🔗',
-                                 url=f'https://bit.ly/3HmxYuH')
+                                 url=f'https://bit.ly/3kz219v')
         ]] 
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1002,8 +1002,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/+nMw67oz4F6kxOWZl'),
-            InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/Popcorn_Bot_Channel')
+            InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/Neha_movie_request'),
+            InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/Vj_bots')
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
@@ -1193,7 +1193,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/Technical_Bichu")
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="https://t.me/Vj_bots")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -1407,7 +1407,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ How To Download ⚡", url=f"https://t.me/How_To_Open_Links_23")
+        InlineKeyboardButton("⚡ How To Download ⚡", url=f"https://t.me/How_To_Open_Linkl")
     ])
 
     if offset != "":
