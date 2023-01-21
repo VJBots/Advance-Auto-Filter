@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = "<b>🧤Helo {}, I'm <a href=https://telegram.me/{}>{}</a> I Can Provide You Any Movies And Series</b> 😇. \n⚡ You Can Also Use Your Shortner And Bot Will Provide Your Links In Your Group⚡"
+    START_TXT = "<b>🧤 Hello {}, I'm <a href=https://telegram.me/{}>{}</a> I Can Provide You Any Movies And Series</b> 😇. \n⚡ You Can Also Use Your Shortner And Bot Will Provide Your Links In Your Group⚡"
 
     HELP_TXT = """<b>Hᴇʏ {}
 ⚡Plans You Can Use In Your Group ⚡
@@ -27,13 +27,13 @@ class script(object):
 
 🔗 For More Information Contact @Pirate_Gamers 🔗</b>"""
 
-    ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/MrperfectOffcial_bot'>Ɱɾ. φҽɾƒҽçէ</a>
-✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
-✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
-✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
-✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://t.me/MrperfectOffcial'>Heroku</a>
-✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.0.3 [ Sᴛᴀʙʟᴇ ]</b>"""
+    ABOUT_TXT = """<b><i>🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/Popcorn_Movies_Robot><b>Search Bot</b></a>\n
+👑 Oᴡɴᴇʀ : <a href=https://t.me/Pirate_Gamers><b>🏆 Pirate Gamers 🏆</b></a>\n
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Popcorn_Bot_Channel><b>⚡ Popcorn Bot Channel ⚡</b></a>\n
+📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
+📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n
+🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
 
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
 ✅ - This Bot Is An Private Project
