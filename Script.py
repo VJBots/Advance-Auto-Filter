@@ -9,14 +9,12 @@ class script(object):
 ▫️1 Year Validity 
 ▪️All Shortner Support
 ▫️Custom Api
-▪️10 Groups
 
-🎗 Silver Plan《 20 Rs 》
+🎗 Silver Plan《 50 Rs 》
 
 ▫️1 Month Validity 
 ▪️All Shortner Support
 ▫️Custom Api
-▪️5 Groups
 
 🎗 Bronze Plan《 Free 》
 
@@ -25,11 +23,11 @@ class script(object):
 ▫️Links Of Shortner From My Refer
 ▪️Unlimited Groups
 
-🔗 For More Information Contact @Pirate_Gamers 🔗</b>"""
+🔗 For More Information Contact @Anjel_Neha 🔗</b>"""
 
-    ABOUT_TXT = """<b><i>🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/Popcorn_Movies_Robot><b>Search Bot</b></a>\n
-👑 Oᴡɴᴇʀ : <a href=https://t.me/Pirate_Gamers><b>🏆 Pirate Gamers 🏆</b></a>\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Popcorn_Bot_Channel><b>⚡ Popcorn Bot Channel ⚡</b></a>\n
+    ABOUT_TXT = """<b><i>🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/YourSearchVJbot><b>Movie Search Bot</b></a>\n
+👑 Oᴡɴᴇʀ : <a href=https://t.me/anjel_neha><b>🏆 Neha 🏆</b></a>\n
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Popcorn_Bot_Channel><b>⚡ VJ Bots ⚡</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n
@@ -37,7 +35,7 @@ class script(object):
 
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
 ✅ - This Bot Is An Private Project
-✅ - ꜱᴏᴜʀᴄᴇ - <a href="https://t.me/Technical_Bots">⚡ ʜᴇʀᴇ ⚡</a>
+✅ - ꜱᴏᴜʀᴄᴇ - <a href="https://t.me/VJ_Bots">⚡ ʜᴇʀᴇ ⚡</a>
 Dᴇᴠᴇʟᴏᴘᴇʀ:</b>"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
@@ -59,7 +57,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/Pirate_Gamers)</code>
+<code>[Button Text](buttonurl:https://t.me/anjel_neha)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -149,8 +147,8 @@ Nᴀᴍᴇ - {}"""
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : Pirate Gamers
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/Pirate_Gamers'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : Anjel Neha
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/anjel_neha'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
 Check Your Spelling, Release Date, If You Still Don't Get The Movie Then Type Like This...
@@ -187,7 +185,7 @@ Owner Will Update The Movie Within 24Hour"""
 ♦️ <b>User ID</b> : `{}` """
 
     CAPTION = """
-<b>ɴᴀᴍᴇ: <code>{file_name}</code> \n\nJᴏɪɴ Nᴏᴡ: [⚡Technical Bots⚡](https://t.me/Technical _Bots)</b>"""
+<b>ɴᴀᴍᴇ: <code>{file_name}</code> \n\nJᴏɪɴ Nᴏᴡ: [⚡ VJ Bots⚡](https://t.me/VJ_Bots)</b>"""
 
     IMDB_TEMPLATE_TXT = """<b><i>📟 ᴛɪᴛᴛʟᴇ :</b></i> {title} \n<b><i>🌟 ʀᴀᴛɪɴɢ :</b></i> {rating} \n<b><i>🎭 ɢᴇɴʀᴇ :</b></i> {genres} \n<b><i>📆 ʀᴇʟᴇᴀsᴇ :</b></i> {year} </b></i>\n<b><i>⏰ ᴅᴜʀᴀᴛɪᴏɴ :</b></i> {runtime}\n\n<b><i>🔖 𝓟𝓵𝓸𝓽  :</b></i> `{plot}` \n\n<b><i>⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ⚡ :</b></i> {message.chat.title}"""
 
