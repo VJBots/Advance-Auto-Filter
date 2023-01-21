@@ -21,14 +21,14 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '5942286566:AAHLtGE9CZdLu_qrvYdSlaJf_gfn3ag
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/5eaf79965acbe524cb892.jpg')).split()
+PICS = (environ.get('PICS', 'https://te.legra.ph/file/c344b7987e488ffd78926.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5606411877').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001876814055').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001375419446').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5606411877').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
@@ -48,7 +48,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjbot')
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omegalinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'c3f4e453f272434faf97421b414325782b6c624b')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
