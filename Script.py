@@ -4,7 +4,7 @@ class script(object):
     HELP_TXT = """<b>Hᴇʏ {}
 ⚡Plans You Can Use In Your Group ⚡
 
-🎗 Gold Plan《 200 Rs 》
+🎗 Gold Plan《 600 Rs 》
 
 ▫️1 Year Validity 
 ▪️All Shortner Support
@@ -27,7 +27,7 @@ class script(object):
 
     ABOUT_TXT = """<b><i>🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/YourSearchVJbot><b>Movie Search Bot</b></a>\n
 👑 Oᴡɴᴇʀ : <a href=https://t.me/anjel_neha><b>🏆 Neha 🏆</b></a>\n
-📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Popcorn_Bot_Channel><b>⚡ VJ Bots ⚡</b></a>\n
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/vj_Bots><b>⚡ VJ Bots ⚡</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\n
