@@ -23,10 +23,10 @@ class script(object):
 ▫️Links Of Shortner From My Refer
 ▪️Unlimited Groups
 
-🔗 For More Information Contact @Anjel_Neha 🔗</b>"""
+🔗 For More Information Contact @VJbots_bot 🔗</b>"""
 
     ABOUT_TXT = """<b><i>🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/YourSearchVJbot><b>Movie Search Bot</b></a>\n
-👑 Oᴡɴᴇʀ : <a href=https://t.me/anjel_neha><b>🏆 Neha 🏆</b></a>\n
+👑 Oᴡɴᴇʀ : <a href=https://t.me/vjbots_bot><b>🏆 Vijay 🏆</b></a>\n
 📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/vj_Bots><b>⚡ VJ Bots ⚡</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
@@ -148,7 +148,7 @@ Nᴀᴍᴇ - {}"""
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
 • ꜰᴜʟʟ ɴᴀᴍᴇ : Anjel Neha
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/anjel_neha'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/vjbots_bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
 Check Your Spelling, Release Date, If You Still Don't Get The Movie Then Type Like This...
