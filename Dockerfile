@@ -6,7 +6,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /url-Shortner-3
-WORKDIR /url-Shortner-3
+RUN mkdir /url-Shortner-
+WORKDIR /url-Shortner-
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
