@@ -47,8 +47,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "vjbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjbot')
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omegalinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'c3f4e453f272434faf97421b414325782b6c624b')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'mdisklink.link')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'a21d381121da4bae1dd61d5c7dc7ae8de52e6041')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
