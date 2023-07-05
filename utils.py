@@ -448,7 +448,7 @@ async def get_shortlink(chat_id, link):
         https = "https"
         link = link.replace("http", https) #replacing http to https
     if URL == "api.shareus.io":
-        url = f'https://{URL}/shortLink'
+        url = f'https://{URL}/directLink'
         params = {
             "token": API,
             "format": "json",
@@ -462,10 +462,10 @@ async def get_shortlink(chat_id, link):
                         return data["shortlink"]
                     else:
                         logger.error(f"Error: {data['message']}")
-                        return f'https://{URL}/shortLink?token={API}&format=json&link={link}'
+                        return f'https://{URL}/directLink?token={API}&format=json&link={link}'
         except Exception as e:
             logger.error(e)
-            return f'https://{URL}/shortLink?token={API}&format=json&link={link}'
+            return f'https://{URL}/directLink?token={API}&format=json&link={link}'
     else:
         url = f'https://{URL}/api'
         params = {
