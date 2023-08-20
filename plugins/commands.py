@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('📣 Uᴘᴅᴀᴛᴇs 📣', url='https://t.me/VJ_Bots')
             ],
             [
-                InlineKeyboardButton('♠️ Subscribe ♠️', url='https://youtube.com/@movietimeguru6265'),
+                InlineKeyboardButton('♠️ Subscribe ♠️', url='https://youtube.com/@Tech_VJ'),
             ],
             [
                 InlineKeyboardButton('🎗️ Owner 🎗️',url='https://t.me/vjbots_bot')
@@ -49,15 +49,15 @@ async def start(client, message):
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                '🔍 Group 🔍', url='https://t.me/neha_movie_request'),
+                '🔍 Group 🔍', url='https://t.me/vJ_botz'),
             InlineKeyboardButton(
                 '🤖 Updates', url='https://t.me/VJ_Bots')
         ], [
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
         ], [
-            InlineKeyboardButton('🔗 Shortner Website Link 🔗',
-                                 url=f'https://bit.ly/3kz219v')
+            InlineKeyboardButton('🔗 Subscribe YouTube Channel 🔗',
+                                 url=f'https://youtube.com/@Tech_VJ')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -108,8 +108,8 @@ async def start(client, message):
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
         ], [
-            InlineKeyboardButton('🔗 Shortner Website Link 🔗',
-                                 url=f'https://bit.ly/3kz219v')
+            InlineKeyboardButton('🔗 Subscribe YouTube Channel 🔗',
+                                 url=f'https://youtube.com/@Tech_VJ')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
