@@ -42,7 +42,7 @@ async def save_group(bot, message):
                 InlineKeyboardButton('📣 Uᴘᴅᴀᴛᴇs 📣', url='https://t.me/VJ_Bots')
             ],
             [
-                InlineKeyboardButton('♠️ Subscribe ♠️', url='https://youtube.com/@movietimeguru6265'),
+                InlineKeyboardButton('♠️ Subscribe ♠️', url='https://youtube.com/@Tech_VJ'),
             ],
             [
                 InlineKeyboardButton('🎗️ Owner 🎗️',url='https://t.me/anjel_neha')
