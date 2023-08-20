@@ -2,26 +2,7 @@ class script(object):
     START_TXT = "<b>🧤 Hello {}, I'm <a href=https://telegram.me/{}>{}</a> I Can Provide You Any Movies And Series</b> 😇. \n⚡ You Can Also Use Your Shortner And Bot Will Provide Your Links In Your Group⚡"
 
     HELP_TXT = """<b>Hᴇʏ {}
-⚡Plans You Can Use In Your Group ⚡
-
-🎗 Gold Plan《 600 Rs 》
-
-▫️1 Year Validity 
-▪️All Shortner Support
-▫️Custom Api
-
-🎗 Silver Plan《 50 Rs 》
-
-▫️1 Month Validity 
-▪️All Shortner Support
-▫️Custom Api
-
-🎗 Bronze Plan《 Free 》
-
-▫️Lifetime Free
-▪️All Shortner Support
-▫️Links Of Shortner From My Refer
-▪️Unlimited Groups
+If You Want To Create This Type Of Bot Contact Us
 
 🔗 For More Information Contact @VJbots_bot 🔗</b>"""
 
@@ -174,7 +155,7 @@ Owner Will Update The Movie Within 24Hour"""
 › Flash Hindi ✅
 › Flash S01E02 Hindi ✅
 
-› Don't Type Movie Nickname, Don't Use Other Fonts, No Emoji, No Symbols ❌
+› Don't Type Movie Nickname, Don't free Use Other Fonts, No Emoji, No Symbols ❌
 """
 
     NORSLTS = """
