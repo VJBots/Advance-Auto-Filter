@@ -49,7 +49,7 @@ Read [this](https://telegram.dog/VJ_Bots) before you start messing up with your 
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
-* Check [info.py](https://github.com/VJBots/Advanced-Autofilter/blob/main/info.py) for more
+* Check [info.py](https://github.com/VJBots/Advance-Auto-Filter/blob/main/info.py) for more
 ## EXTRA FEATURES
 * `URL_SHORTENR_WEBSITE`: URL Shortener Website Link ( Without https://)
 * `URL_SHORTNER_WEBSITE_API`: URL Shortener Website API key
@@ -62,23 +62,23 @@ Read [this](https://telegram.dog/VJ_Bots) before you start messing up with your 
 ## Deploy
 You can deploy this bot anywhere.
 
-<i>**[Watch Deploying Tutorial...](https://telegram.dog/vj_bots)**</i>
+<i>**[Watch Deploying Tutorial...](https://youtube.com/@Tech_VJ)**</i>
 
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/VJBots/Advanced-Autofilter">
+<a href="https://heroku.com/deploy?template=https://github.com/VJBots/Advance-Auto-Filter">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
 </details>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/VJbots/Advanced-Autofilter&branch=koyeb&name=Advanced-Autofilter)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/VJbots/Advance-Auto-Filter&branch=koyeb&name=Advanced-Autofilter)
 
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/VJBots/Advanced-Autofilter
+git clone https://github.com/VJBots/Advance-Auto-Filter
 # Install Packages
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -119,12 +119,12 @@ link - to create link for one post
 ```
 ## Support
 [![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/vj_bot_disscussion)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/vj_bots)
+[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/vj_botz)
 
 ## Thanks to 
  - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
- - Thanks To [VJ](https://github.com/VJBots) for Original EvaMaria.
- - Thanks To [Neha](https://github.com/vijay14958) for Search in PM feature.
+ - Thanks To [VJ](https://github.com/VJBotz) for Original EvaMaria.
+ - Thanks To [VJ](https://github.com/VJBotz) for Search in PM feature.
  - Thanks To All Everyone In This Journey
 
 ### Note
@@ -133,4 +133,4 @@ you a Developer.
 Fork the repo and edit as per your needs.
 
 ## Inspiration
- - [VJ](https://telegram.dog/VJ_Bots)
+ - [VJ](https://telegram.dog/VJ_Botz)
