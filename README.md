@@ -1,14 +1,13 @@
-<p align="center">
-  <img src="assets/logo.jpg" alt="Eva Maria Logo">
+
 </p>
 <h1 align="center">
-  <b>Nataliya Bot</b>
+  <b>VJ Bots</b>
 </h1>
 
 ## Deploy
 You can deploy this bot anywhere.
 
-<i>**[Watch Deploying Tutorial...](https://t.me/TVSeriesCw)**</i>
+<i>**[Watch Deploying Tutorial...](https://youtube.com/@Tech_vj)**</i>
 
 <details><summary>Deploy To Heroku</summary>
 <p>
