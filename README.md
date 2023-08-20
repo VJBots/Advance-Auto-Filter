@@ -1,9 +1,4 @@
 
-</p>
-<h1 align="center">
-  <b>VJ Bots</b>
-</h1>
-
 # Advance Auto Filter
 
 <h1 align="center">
