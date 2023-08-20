@@ -916,8 +916,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ 🌐', callback_data='about')
         ], [
-            InlineKeyboardButton('🔗 Shortner Website Link 🔗',
-                                 url=f'https://bit.ly/3kz219v')
+            InlineKeyboardButton('🔗 Subscribe YouTube Channel 🔗',
+                                 url=f'https://youtube.com/@Tech_VJ')
         ]] 
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -995,7 +995,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/Neha_movie_request'),
+            InlineKeyboardButton('⚡ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚡', url='https://t.me/vj_botz'),
             InlineKeyboardButton('🔗 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🔗', url='https://t.me/Vj_bots')
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
