@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone VJBots/Advance-Auto-Filter /Advance-Auto-Filter
+  git clone https://github.com/VJBots/Advance-Auto-Filter /Advance-Auto-Filter
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Advance-Auto-Filter
